@@ -1,4 +1,4 @@
-package com.hyuk84.crypto.producer;
+package com.hyuk84.crypto;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
