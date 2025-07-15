@@ -1,0 +1,4 @@
+.vscode/
+.gradle/
+build/
+docker/data/kafka
