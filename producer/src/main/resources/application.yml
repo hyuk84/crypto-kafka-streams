@@ -4,4 +4,12 @@ spring:
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.apache.kafka.support.serializer.JsonSerializer
-     
+
+app:
+  kafka:
+    topic:
+      ticker: upbit-ticker
+
+up-bit:
+  websocket:
+    url: wss://api.upbit.com/websocket/v1

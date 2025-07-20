@@ -3,7 +3,7 @@ plugins {
     id("io.spring.dependency-management") version "1.1.7" apply false
 }
 
-allprojects {
+subprojects {
     repositories {
         mavenCentral()
     }

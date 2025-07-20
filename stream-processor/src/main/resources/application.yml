@@ -1,0 +1,11 @@
+kafka:
+  streams:
+    bootstrap-servers: localhost:9092
+    application-id: upbit-stream-app
+    input-topic: upbit-ticker
+    output-topic: upbit-ticker-summary
+
+app:
+  kafka:
+    topic:
+      ticker: upbit-ticker

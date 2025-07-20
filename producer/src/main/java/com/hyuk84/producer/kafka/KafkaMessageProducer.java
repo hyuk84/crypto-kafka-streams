@@ -1,9 +1,9 @@
-package com.hyuk84.crypto.kafka;
+package com.hyuk84.producer.kafka;
 
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Component;
 
-import com.hyuk84.crypto.dto.TickerDto;
+import com.hyuk84.common.dto.TickerDto;
 
 import lombok.RequiredArgsConstructor;
 
